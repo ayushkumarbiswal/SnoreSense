@@ -1,0 +1,22 @@
+[
+ {
+  "file": "sample_1_regular_snoring.flac",
+  "title": "1 \u00b7 Regular snoring (2.5 min)",
+  "description": "Steady snoring every few seconds in a quiet bedroom \u2014 expected: Normal."
+ },
+ {
+  "file": "sample_2_irregular_pattern.flac",
+  "title": "2 \u00b7 Pause-interrupted snoring (2.5 min)",
+  "description": "Snoring that repeatedly stops for 10\u201325 s and restarts with a loud snore or gasp \u2014 expected: Irregular pattern."
+ },
+ {
+  "file": "sample_3_noisy_phone_recording.flac",
+  "title": "3 \u00b7 Noisy phone recording, mixed night (3 min)",
+  "description": "Phone on a bedside table with fan/rain noise; regular snoring that turns irregular in the second half \u2014 shows how flagged segments are localised."
+ },
+ {
+  "file": "sample_4_poor_quality.flac",
+  "title": "4 \u00b7 Poor-quality recording (20 s)",
+  "description": "Mostly fan noise with barely audible breathing \u2014 expected: the app asks you to record again instead of guessing (US-09)."
+ }
+]

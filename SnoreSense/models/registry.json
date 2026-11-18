@@ -1,0 +1,49 @@
+{
+ "active": "v1.0",
+ "versions": [
+  {
+   "id": "v1.0",
+   "created": "2026-10-07T07:15:11+00:00",
+   "status": "active",
+   "description": "Initial release: RF + SVM (handcrafted features) and CNN (log-mel), ensemble of all three",
+   "files": {
+    "rf": "rf.joblib",
+    "svm": "svm.joblib",
+    "cnn": "cnn.npz"
+   },
+   "decision_model": "ensemble",
+   "train_windows": 1500,
+   "extra_clips": 0,
+   "test": {
+    "rf": {
+     "accuracy": 0.952,
+     "f1": 0.9518072289156626,
+     "recall": 0.948,
+     "specificity": 0.956,
+     "roc_auc": 0.9933280000000001
+    },
+    "svm": {
+     "accuracy": 0.96,
+     "f1": 0.9606299212598425,
+     "recall": 0.976,
+     "specificity": 0.944,
+     "roc_auc": 0.994256
+    },
+    "cnn": {
+     "accuracy": 0.98,
+     "f1": 0.9800796812749004,
+     "recall": 0.984,
+     "specificity": 0.976,
+     "roc_auc": 0.99912
+    },
+    "ensemble": {
+     "accuracy": 0.982,
+     "f1": 0.9821073558648111,
+     "recall": 0.988,
+     "specificity": 0.976,
+     "roc_auc": 0.998592
+    }
+   }
+  }
+ ]
+}

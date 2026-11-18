@@ -1,0 +1,4 @@
+# Extra packages for retraining the CNN from scratch (python -m snoresense.train)
+-r requirements.txt
+jax[cpu]>=0.4.30
+optax>=0.2.3

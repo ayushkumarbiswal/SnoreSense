@@ -1,0 +1,10 @@
+# SnoreSense app (Python 3.10 – 3.13 recommended)
+streamlit>=1.60,<2
+librosa==0.11.0
+soundfile>=0.12.1
+numpy>=1.26,<3
+scipy>=1.11
+scikit-learn==1.7.2        # pinned: the saved Random Forest / SVM files were trained with this version
+plotly>=5.22
+pandas>=2.1
+joblib>=1.3
